@@ -1,8 +1,11 @@
 /*******
 COLOR CHEAT SHEET
-
-
-
+https://coolors.co/780000-c1121f-fdf0d5-003049-669bbc
+780000 -Dark Red
+c1121f -Bright Red
+fdf0d5 -Off White
+003049 -Deep Blue
+669bbc -Light Blue
 
 *****/
 
@@ -11,3 +14,10 @@ COLOR CHEAT SHEET
 /************************/
 /******** FONTS *********/
 /************************/
+body, p, div{
+     font-family: "Instrument Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-Family: "Bungee Inline", sans-serif;
+}
