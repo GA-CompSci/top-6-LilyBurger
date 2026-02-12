@@ -6,6 +6,8 @@ c1121f -Bright Red
 fdf0d5 -Off White
 003049 -Deep Blue
 669bbc -Light Blue
+ffffff -white
+000000 -black
 
 *****/
 
@@ -20,4 +22,26 @@ body, p, div{
 
 h1, h2, h3, h4, h5, h6 {
      font-Family: "Bungee Inline", sans-serif;
+}
+
+
+/************************/
+/********  HERO  *********/
+/************************/
+
+header.masthead {
+     background: url("https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0601%2Fnhl_building-perfect-defensemen_16x9.jpg");
+     background-size: cover;
+}
+
+.masthead h1 {
+     color: #003049;
+     text-shadow:2px 2px 5px white;
+}
+
+.masthead p{
+     color: black;
+     font-weight: 900;
+     text-shadow: 2px 2px 3px white;
+     font-size: 1.25em !important;
 }
