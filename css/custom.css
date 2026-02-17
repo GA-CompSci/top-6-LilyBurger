@@ -45,3 +45,58 @@ header.masthead {
      text-shadow: 2px 2px 3px white;
      font-size: 1.25em !important;
 }
+ 
+/************************/
+/****** Portfolio  ****/
+/************************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #c1121ea2;
+}
+
+/************************/
+/********  Colors  *********/
+/************************/
+
+.text-primary {
+    color:#003049 !important;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color:#003049  !important;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #c1121f;
+    opacity: 1;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #003049;
+    --bs-btn-border-color: #669bbc;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:#669bbc ;
+    --bs-btn-focus-shadow-rgb: 246, 122, 88;
+    --bs-btn-active-color: #fff;
+}
+
+.bg-dark {
+
+    background-color: black !important;
+}
+
+.btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #c1121f;
+    --bs-btn-border-color: #669bbc;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:#669bbc ;
+    --bs-btn-focus-shadow-rgb: 246, 122, 88;
+    --bs-btn-active-color: #fff;
+}
+
