@@ -87,7 +87,7 @@ hr.divider {
 
 .bg-dark {
 
-    background-color: black !important;
+    background-color:#003049 !important;
 }
 
 .btn-light {
@@ -100,3 +100,25 @@ hr.divider {
     --bs-btn-active-color: #fff;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #c1121f !important;
+}
+
+a {
+    color: #c1121f;
+    text-decoration: underline;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color:#c1121f;
+;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    padding: 0 1rem;
+}
+
+#mainNav .navbar-brand {
+    color: black;
+}
