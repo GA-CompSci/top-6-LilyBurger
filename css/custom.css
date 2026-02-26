@@ -59,7 +59,7 @@ header.masthead {
 /************************/
 
 .text-primary {
-    color:#003049 !important;
+    color: #003049 !important;
 }
 
 .bg-primary {
@@ -93,11 +93,11 @@ hr.divider {
 .btn-light {
     --bs-btn-color: #fff;
     --bs-btn-bg: #c1121f;
-    --bs-btn-border-color:;
-    --bs-btn-hover-color: #fff; #669bbc
-    --bs-btn-hover-bg:#669bbc ;
+    --bs-btn-border-color:#003049;
+    --bs-btn-hover-color: #669bbc; 
+    --bs-btn-hover-bg: white;
     --bs-btn-focus-shadow-rgb: 246, 122, 88;
-    --bs-btn-active-color: #fff;
+    --bs-btn-active-color: #669bbc;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
@@ -156,3 +156,11 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #c1121f;
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    background-color: white;
+    border-color: white;
+}
